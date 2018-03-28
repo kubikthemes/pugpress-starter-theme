@@ -1,0 +1,9 @@
+header(class="")
+  h1=_p('PugPress Starter Theme')
+  if menus.primary
+    nav
+      h2=_p('Navigation')
+      ul
+        each item in menus.primary
+          li
+            a(href=item.link)!=item.title

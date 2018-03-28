@@ -1,0 +1,14 @@
+mixin list(posts)
+  if posts
+    h2=_p('Posts')
+    ul
+      each post in posts
+        li
+          img(src=post.thumb)
+          a(href=post.link)!=post.title
+          div=post.excerpt
+
+mixin article(post)
+  if post
+    h1!=post.title
+    div!=post.content
