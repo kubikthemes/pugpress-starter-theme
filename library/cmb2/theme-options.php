@@ -1,5 +1,17 @@
 <?php
 /**
+ * Intellectual Property rights, and copyright, reserved by Kubik Ltd. as allowed by law include,
+ * but are not limited to, the working concept, function, and behavior of this software,
+ * the logical code structure and expression as written.
+ *
+ * @package     PugPress Starter Theme
+ * @author      Kubik Ltd. http://kubikplugins.com/
+ * @copyright   Copyright (c) Kubik Ltd. (support@kubikplugins.com)
+ * @since       0.0.1
+ * @license     http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
+ */
+
+/**
  * Hook in and register a metabox to handle a theme options page and adds a menu item.
  */
 function pugpress_starter_theme_register_main_options_metabox() {
