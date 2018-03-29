@@ -12,3 +12,12 @@ mixin article(post)
   if post
     h1!=post.title
     div!=post.content
+
+//-
+//- Sections
+//-
+mixin s-hr()
+  hr
+
+mixin s-link(o)
+  a(href=o.link)=o.title
